@@ -9,6 +9,7 @@
     background-image: url(../images/fondo.png);
     background-repeat: no-repeat;
     background-size: cover;
+    z-index: auto;
 }
 .img{
     border-radius: 2rem;
@@ -81,7 +82,7 @@ footer div{
     header h2{
         font-size: 2rem;
     }
-    main nav div ul{
+    main {
         font-size: 1.2rem;
     }
     footer{
@@ -104,7 +105,7 @@ footer div{
         border-width: 0.3rem;
         margin-top: 1rem;
     }
-    main nav div ul{
+    main {
         font-size: 1.1rem;
     }
     footer{
@@ -127,7 +128,7 @@ footer div{
         border-width: 0.3rem;
         margin-top: 1rem;
     }
-    main nav div ul{
+    main{
         font-size: 1rem;
     }
     footer{
@@ -150,7 +151,7 @@ footer div{
         border-width: 0.3rem;
         margin-top: 1rem;
     }
-    main nav div ul{
+    main{
         font-size: 0.8rem;
     }
     footer{
@@ -177,4 +178,6 @@ ul h2{
     color: #0cb9c5ec;
     padding: 10px;
     list-style:none
+}
+.container{ background-image: url(../images/fondo.png);
 }
